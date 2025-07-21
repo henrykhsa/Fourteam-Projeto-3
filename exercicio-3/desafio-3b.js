@@ -2,8 +2,8 @@
 
 const numberString= "123.45";
 
-console.log("String original:", numberString, typeof numberString);
+console.log("String original:", numberString, "- Tipo:", typeof numberString);
 
 const convertedString = Number(numberString);
 
-console.log("Depois de converter:", convertedString, typeof convertedString);
+console.log("String convertida:", convertedString, "- Tipo:", typeof convertedString);
